@@ -14,27 +14,29 @@ In this example im disabling the guest account
 net user guest /active no
 ```
 
+### Get services currently stopped or running 
+You can also run this with a specific service to get more info on that service
+```
+Get-Service
+```
+
+### List current running processes (equivalent to ps command in Linux)
+
+```
+Get-Process
+```
+
+### stop a process based on process ID or program name
+
+```
+Stop-Process -ID 2668
+Stop-Process -Name "process_name"
+```
+
 ###  Windows Privilege Escalation Awesome Scripts (WinPEAS)
 
 https://github.com/carlospolop/PEASS-ng/tree/master/winPEAS
 
+###  Windows Blue team tips and tricks
 
-### Get services currently stopped or running (equivalent to PS command in Linux) 
-
-'''
-Get-Service
-'''
-
-# List current running processes
-'''
-Get-Process
-'''
-
-### stop a process based on process ID or program name
-'''
-Stop-Process
-'''
-
-
-
-
+https://github.com/C0nd4/CCDC-Blueteam-Manual
