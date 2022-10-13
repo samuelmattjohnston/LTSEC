@@ -13,3 +13,29 @@ apt list --installed | cut -f 1 -d '/' > current
 
 for x in $(cat current) ; do if ! $(grep -q $x default); then echo $x ; fi ; done
 ```
+
+### Check binaries checksums packages
+
+Debian based:
+
+```
+sudo debsums -a | grep -v OK$
+```
+
+### CCDC Blueman Manual
+
+https://github.com/C0nd4/CCDC-Blueteam-Manual
+
+
+### check sudo/wheel users
+
+```
+getent group {sudo,wheel} | cut -d: -f4
+```
+
+### Check sudoers and sudoers.d
+
+```
+sudo grep -v ^# /etc/{sudoers.d/*,sudoers}
+```
+
