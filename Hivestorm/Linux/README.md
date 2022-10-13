@@ -24,8 +24,7 @@ sudo debsums -a | grep -v OK$
 
 ### CCDC Blueman Manual
 
-https://github.com/C0nd4/CCDC-Blueteam-Manual
-
+https://github.com/C0nd4/CCDC-Blueteam-Manual#linux
 
 ### check sudo/wheel users
 

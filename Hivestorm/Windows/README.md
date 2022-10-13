@@ -39,4 +39,4 @@ https://github.com/carlospolop/PEASS-ng/tree/master/winPEAS
 
 ###  Windows Blue team tips and tricks
 
-https://github.com/C0nd4/CCDC-Blueteam-Manual
+https://github.com/C0nd4/CCDC-Blueteam-Manual#windows
