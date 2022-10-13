@@ -19,3 +19,22 @@ net user guest /active no
 https://github.com/carlospolop/PEASS-ng/tree/master/winPEAS
 
 
+### Get services currently stopped or running (equivalent to PS command in Linux) 
+
+'''
+Get-Service
+'''
+
+# List current running processes
+'''
+Get-Process
+'''
+
+### stop a process based on process ID or program name
+'''
+Stop-Process
+'''
+
+
+
+
