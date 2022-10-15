@@ -38,3 +38,7 @@ getent group {sudo,wheel} | cut -d: -f4
 sudo grep -v ^# /etc/{sudoers.d/*,sudoers}
 ```
 
+### Basic pamd config
+```
+password requisite pam_cracklib.so try_first_pass retry=3 minlength=16lcredit=-1 ucredit=-1 dcredit=-1 ocredit=-1 difok=4 reject_username
+```
