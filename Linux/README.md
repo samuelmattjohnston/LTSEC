@@ -42,3 +42,7 @@ sudo grep -v ^# /etc/{sudoers.d/*,sudoers}
 ```
 password requisite pam_cracklib.so try_first_pass retry=3 minlength=16lcredit=-1 ucredit=-1 dcredit=-1 ocredit=-1 difok=4 reject_username
 ```
+
+### Audit Logs script
+
+https://gist.github.com/Neo23x0/9fe88c0c5979e017a389b90fd19ddfee
